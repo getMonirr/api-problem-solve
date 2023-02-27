@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api Problem solve</title>
+  <!-- daisyUI and tailwind css -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container mx-auto p-4">
+  <header>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <a href="index.html" class="btn btn-ghost normal-case text-xl">Api Problem</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="findUser.html">Find User</a></li>
+          <li><a href="find-dream-car.html">Find Dream Car</a></li>
+          <li><a href="filter-country.html">Find Your Country</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn">Get started</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- search section  -->
+    <section class="mx-auto my-14 flex justify-center gap-4">
+      <!-- search by region -->
+      <div class="form-control">
+        <div class="input-group items-center justify-center">
+          <select id="selected-item" class="select select-bordered">
+            <option disabled selected>Select Region</option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
+          <button id="search-btn" class="btn">search</button>
+        </div>
+      </div>
+      <!-- search by capital city -->
+      <div class="form-control">
+        <div class="input-group items-center justify-center">
+          <select id="selected-capital" class="select select-bordered">
+            <option disabled selected>Select By Capital</option>
+          </select>
+          <button id="search-btn-capital" class="btn">search</button>
+        </div>
+      </div>
+      <!-- search by language city -->
+      <div class="form-control">
+        <div class="input-group items-center justify-center">
+          <select id="selected-language" class="select select-bordered">
+            <option disabled selected>Select By language</option>
+            <option value="Abkhazian">Abkhazian</option>
+            <option value="Afar">Afar</option>
+            <option value="Afrikaans">Afrikaans</option>
+            <option value="Akan">Akan</option>
+            <option value="Albanian">Albanian</option>
+            <option value="Amharic">Amharic</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Aragonese">Aragonese</option>
+            <option value="Armenian">Armenian</option>
+            <option value="Assamese">Assamese</option>
+            <option value="Avaric">Avaric</option>
+            <option value="Avestan">Avestan</option>
+            <option value="Aymara">Aymara</option>
+            <option value="Azerbaijani">Azerbaijani</option>
+            <option value="Bambara">Bambara</option>
+            <option value="Bashkir">Bashkir</option>
+            <option value="Basque">Basque</option>
+            <option value="Belarusian">Belarusian</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Bihari">Bihari</option>
+            <option value="Bislama">Bislama</option>
+            <option value="Bosnian">Bosnian</option>
+            <option value="Breton">Breton</option>
+            <option value="Bulgarian">Bulgarian</option>
+            <option value="Burmese">Burmese</option>
+            <option value="Catalan">Catalan</option>
+            <option value="Chamorro">Chamorro</option>
+            <option value="Chechen">Chechen</option>
+            <option value="Chichewa">Chichewa</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Chuvash">Chuvash</option>
+            <option value="Cornish">Cornish</option>
+            <option value="Corsican">Corsican</option>
+            <option value="Cree">Cree</option>
+            <option value="Croatian">Croatian</option>
+            <option value="Czech">Czech</option>
+            <option value="Danish">Danish</option>
+            <option value="Divehi">Divehi</option>
+            <option value="Dutch">Dutch</option>
+            <option value="Dzongkha">Dzongkha</option>
+            <option value="English">English</option>
+            <option value="Esperanto">Esperanto</option>
+            <option value="Estonian">Estonian</option>
+            <option value="Ewe">Ewe</option>
+            <option value="Faroese">Faroese</option>
+            <option value="Fijian">Fijian</option>
+            <option value="Finnish">Finnish</option>
+            <option value="French">French</option>
+            <option value="Fula">Fula</option>
+            <option value="Galician">Galician</option>
+            <option value="Georgian">Georgian</option>
+            <option value="German">German</option>
+            <option value="Greek">Greek</option>
+            <option value="Guaraní">Guaraní</option>
+            <option value="Gujarati">Gujarati</option>
+            <option value="Haitian">Haitian</option>
+            <option value="Hausa">Hausa</option>
+            <option value="Hebrew">Hebrew</option>
+            <option value="Herero">Herero</option>
+            <option value="Hindi">Hindi</option>
+
+          </select>
+          <button id="search-btn-language" class="btn">search</button>
+        </div>
+      </div>
+    </section>
+    <!-- show country section  -->
+    <section id="country-container" class="grid grid-cols-3 gap-4 my-8">
+
+    </section>
+  </main>
+  <!-- javascript -->
+  <script src="./js/script.js"></script>
+  <script src="./js/filter-country.js"></script>
+</body>
+
+</html>

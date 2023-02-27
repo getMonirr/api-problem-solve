@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api Problem solve</title>
+  <!-- daisyUI and tailwind css -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container mx-auto p-4">
+  <header>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <a href="index.html" class="btn btn-ghost normal-case text-xl">Api Problem</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="findUser.html">Find User</a></li>
+          <li><a href="find-dream-car.html">Find Dream Car</a></li>
+          <li><a href="filter-country.html">Find Your Country</a></li>
+          <li><a href="short-link.html">Short your link</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn">Get started</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="bg-green-700 h-96 flex justify-center items-center rounded-lg">
+      <div class="form-control">
+        <div class="input-group">
+          <input id="link-input" type="text" placeholder="Search…" class="input input-bordered w-96" />
+          <button id="shorten-btn" class="btn btn-primary">
+            Shorten it!
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- show shorten links -->
+    <section id="show-shorten" class="my-8">
+    </section>
+  </main>
+  <!-- javascript -->
+  <script src="./js/script.js"></script>
+  <script src="./js/shorten-it.js"></script>
+</body>
+
+</html>
