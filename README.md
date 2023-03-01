@@ -1,6 +1,25 @@
 # api-problem-solve
 There are 8 different API problem-solving projects.
 
+
+Live link:
+1. Find a random user:
+https://getmonirr.github.io/api-problem-solve/findUser.html
+2. Find your Dream Car: 
+https://getmonirr.github.io/api-problem-solve/find-dream-car.html
+3. Find and Filter your Country
+https://getmonirr.github.io/api-problem-solve/filter-country.html
+4. Shorten your Link: 
+https://getmonirr.github.io/api-problem-solve/short-link.html
+5. Get Free Advice: 
+https://getmonirr.github.io/api-problem-solve/advice.html
+6. Find your Word From the dictionary:
+https://getmonirr.github.io/api-problem-solve/dictionary.html
+7. Find 10 users from GitHub also find each user two followers:
+https://getmonirr.github.io/api-problem-solve/github10.html
+8. Find any Github user
+https://getmonirr.github.io/api-problem-solve/getuser.html
+
 API list:
 
 1: Local data   
